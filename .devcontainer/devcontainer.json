@@ -1,0 +1,14 @@
+{
+  "name": "HTB Pwn Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python"
+  ],
+  "postCreateCommand": "pip3 install --upgrade pwntools",
+  "remoteUser": "vscode"
+}
